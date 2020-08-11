@@ -8,3 +8,8 @@ foreach my $i (1 .. 10) {
     print "$i ";
 }
 print "\n";
+
+# printing hexadecimal range
+foreach my $i (0..9,'a'..'f'){
+    print "$i ";
+}
