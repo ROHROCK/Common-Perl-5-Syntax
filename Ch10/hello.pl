@@ -4,4 +4,15 @@
 use 5.18.0;
 use warnings;
 
-say "Hello, World!";
+hello();
+# parameter which can also be accessed using @_
+hello('temp');
+
+# passing array as parameter
+my @extranames = ("Poo","Loo");
+hello('Rahul','Joy',@extranames);
+
+sub hello{
+	say "Hello, World! ";
+	say foreach @_;
+}
