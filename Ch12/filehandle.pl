@@ -7,6 +7,6 @@ use warnings;
 my $filename = 'lines.txt';
 
 open(my $fh, '<', $filename) or die "Cannot open file: $!";
-print while <$fh>;
+print while <$fh>; #gives one line at a time
 close $fh;
 

@@ -40,19 +40,4 @@ if ($s =~ /(..is)/) {
 
 say foreach $s =~ /i(.)/g;
 
-# Matching wildcards
-if ($s =~ /(te.t)/) {
-	say "Matched using wildcard . $1";
-}
 
-# greedy 
-if ($s =~ /(i.*)/) {
-	say "Matched using wildcard * $1";
-}
-
-# lazy
-if ($s =~ /(i.*?)/) {
-	say "Matched using wildcard * $1";
-}
-
-# matching classes of character

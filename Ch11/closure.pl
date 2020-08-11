@@ -20,6 +20,8 @@ say $fref42->();
 say $fref1->();
 say $fref42->();
 
+# Here closure concept is used , it can be useful to count the number of times the function are being called.
+
 sub make_counter {
     my $n = shift || 1;
     return sub { return $n++ };

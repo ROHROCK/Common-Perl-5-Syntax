@@ -13,4 +13,6 @@ display_ref($ref2);
 sub display_ref {
     my $r = shift || '';
     say ref($r);
+    # Use-case: according to the type of ref you get (Hash or array , etc) ...
+    # we can do if else for their own logic
 }

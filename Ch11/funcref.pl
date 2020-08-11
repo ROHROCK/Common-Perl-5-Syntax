@@ -10,3 +10,11 @@ my $ref = \&func;
 sub func {
     say "This is the excellent function.";
 }
+
+# A function returning a anonymous function
+
+my $newref = func2();
+$newref->(); 
+sub func2 {
+    sub { return "This is the excellent function."; }
+}

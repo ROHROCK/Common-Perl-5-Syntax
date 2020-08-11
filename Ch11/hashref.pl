@@ -12,7 +12,11 @@ my %hash = (
     five => 'cinco'
 );
 
+# creating a reference of hash
 my $ref = \%hash;
+
+$ref->{two} = 'ni'; # 2 in Japanese
+
 foreach my $k ( sort keys %{$ref}) {
     say "$k : ${$ref}{$k}";
 }
