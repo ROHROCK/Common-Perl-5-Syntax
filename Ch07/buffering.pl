@@ -3,8 +3,15 @@
 
 use 5.18.0;
 use warnings;
+# We want to ensure that print statement works when we want to print it ;
+# There is no easy way to determine when to flush the buffer , so the print statement would be printed depending on the state of the buffer which is not what we want ;
+
+# This is the auto-flush variable which helps to flush the buffer automatically.
+$| = 1;
 
 main();
+
+
 
 sub main {
     print "What is your favorite number? ";
