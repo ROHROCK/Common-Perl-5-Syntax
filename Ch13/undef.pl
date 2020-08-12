@@ -5,6 +5,7 @@ use 5.18.0;
 use warnings;
 
 my $x;
+$x = undef; # to set the variable to undef similar to None in python
 
 if (defined $x) {
     say "x is $x";

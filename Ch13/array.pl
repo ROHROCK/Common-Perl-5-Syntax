@@ -5,4 +5,5 @@ use 5.18.0;
 use warnings;
 
 my @a = qw( one two three four five );
-say foreach @a;
+# to reverse the list
+say foreach reverse @a;

@@ -10,3 +10,9 @@ my $b = 150;
 my $x = $a + $b;
 
 say "result is: $x";
+
+say "result is:" ,abs $x;
+
+say "power 2^3 is:" ,2**3;
+
+say "Random :" ,rand;
