@@ -13,7 +13,7 @@ sub main
 
 sub error
 {
-    my $e = shift || 'unkown error';
+    my $e = shift || 'unknown error';
     print("$0: $e\n");
     exit 0;
 }

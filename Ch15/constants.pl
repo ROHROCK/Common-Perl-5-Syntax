@@ -4,6 +4,7 @@
 use 5.18.0;
 use warnings;
 
+# normally Perl does not have constants
 use constant {
     TRUE => 1,
     FALSE => '',
@@ -12,6 +13,7 @@ use constant {
     PI => atan2(1,1) * 4,
 };
 
+# another way to creating constant
 use constant DEBUG => TRUE;
 
 if ( DEBUG ) {

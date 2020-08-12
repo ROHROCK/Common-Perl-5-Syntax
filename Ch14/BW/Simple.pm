@@ -1,6 +1,7 @@
 # BW::Simple.pm
 # Example perl module - by Bill Weinman <http://bw.org/contact/>
 
+# Directory:filename
 package BW::Simple;
 use 5.18.0;
 use warnings;
@@ -12,6 +13,7 @@ sub new {
     my $class = ref($inv) || $inv;
 
     my $self = {};
+    # bless creates class
     bless($self, $class);
 
     $self->{number} = shift || 0;
@@ -33,4 +35,5 @@ sub version {
     return $VERSION;
 }
 
+# don't ask why we do this , we just do for some reason.
 1;
