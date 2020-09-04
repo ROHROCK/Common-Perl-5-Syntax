@@ -1,0 +1,38 @@
+What do Perl's fan appreciate about Perl ?
+
+Answer:I think since perl is a intepretered language it is faster to run and debug the code
+and its free and we can modify the perl interpreter itself. Its open and free and this helps
+alot of people to openly contribute to Perl and share their knoweldge about Perl. We can also
+automate alot of things . Shell commands can be run within Perl which is a plus.
+
+What does Perl interpreter do ?
+
+Answer: The perl interpreter converts the perl code into machine readable code.
+
+Define the following:
+  1. Statment ==> Is any line of code which is not a comment
+  2. Token ==> Is any word/char which is not a whitespace in perl.
+  4. Argument ==> This is the variable which is passed as a parameter.
+  5. Error Recovery ==> This is a feature of perl which tries to execute other lines even
+                        when a error is found at particular line of code.
+  6. Standard input file ==> This is every key entered in the input console when perl is executed.
+
+What is comment , and where can it appear ?
+
+Answer: There are single line comments only in Perl , '#' symbol is used. There can be entire line
+comment or concatinated comments
+
+Where is Perl ususally located on a UNIX machine?
+
+Answer: Perl is located in /usr/local/bin/perl
+
+Where is a header comment,and where does it appear in a program ?
+
+Answer: It is at the top of every Perl file ==> #!/usr/local/bin/perl <==
+
+What is a library function?
+
+Answer: These are function which are predefined in the perl library like print() . It contains
+multiple function which can be invoked anytime.
+
+
