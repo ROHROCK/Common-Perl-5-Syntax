@@ -1,0 +1,23 @@
+Expression : A single line of instruction containing operands and opearator
+Operand: A variable or value which is in a expression
+Conditional Statement: Statement which are executed based on condition
+Statement Block: The code block which get executed when certain condition is satisfied
+Infinite Loop: The loop which never ends
+
+2. When does a while statement stop looping ?
+Ans. When the conditional expr is false
+
+3. When does a until statement stop looping ?
+Ans. When the conditional expr is True
+
+4. What does the == operator do ?
+Ans. It is used as a comparsion opeartor
+
+5. What is result when the following exp is evaluated ?
+Ans. 27
+
+6. Which of the following are legal scalar vairable names ?
+Ans. I will only write the wrong answers. 
+    - $_96tears
+    - $_test
+
